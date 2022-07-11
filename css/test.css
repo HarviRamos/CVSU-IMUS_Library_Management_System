@@ -1,0 +1,44 @@
+@import url('http://fonts.cdnfonts.com/css/fashion-fetish');
+body{
+  width: 99%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-image: url("pics/mainbg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+.books-container{
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+  padding: 0;
+  background: green;
+}
+.book-img, .book-text{
+  position: relative;
+  display: inline-block;
+  margin: 50px auto;
+  padding: 0;
+  height: 50px;
+}
+.book-img{
+  width: 10%;
+  background: lightblue;
+}
+.book-text{
+  background: white;
+  width: 80%;
+}

@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+body{
+  width: 99%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-image: url("pics/mainbg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+}
+.box{
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 14px;
+  width: 1300px;
+  height: 850px;
+  background-color: #fff;
+}
+.box-items{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  display: inline-block;
+  width: 110px;
+  margin-top: 15px
+}
+.logotitle{
+  display: inline-block;
+}
+#lft, #rgt{
+  margin-top: 40px;
+  float: left;
+  width: 650px;
+  height: auto;
+}
+#h2gnd{
+  margin-left: 26px;
+}
+h2{
+  margin-left: 45px;
+}
+h2, h3{
+  font-size: 19px;
+  text-align: left;
+  line-height: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+h4{
+  font-size: 16px;
+  line-height: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+h5{
+  margin-top: 40px;
+  margin-bottom: 35px;
+  font-size: 36px;
+  line-height: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+#rl{
+  width: 207px;
+  height: 38px;
+  border: 2px solid #008037;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#name, #email, #instnum, #password, #confirm_password, #cnt{
+  margin-bottom: 18px;
+  height: 38px;
+  border: 2px solid #008037;
+  border-radius: 5px;
+}
+#gnd, #crs{
+  height: 50px;
+  border: 2px solid #008037;
+  border-radius: 5px;
+ }
+ #name, #email, #instnum, #crs, #password, #confirm_password{
+   width: 85%;
+ }
+ #crs{
+   width: 87.5%;
+ }
+ #gndr{
+   margin-left: 16px;
+ }
+#gndr, #cont{
+  width: 40%;
+  float: left;
+}
+#gnd{
+  width: 80%;
+}
+#cnt{
+  width: 122%;
+}
+#changerole{
+  width: 93%;
+  float: left;
+}
+.input-field{
+  padding-left: 10px;
+  font-size: 16px;
+}
+/* #name, #email, #instnum, #password, #confirm_password, #cnt{
+  margin-bottom: 18px;
+  height: 38px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+#gnd, #crs{
+   height: 49px;
+   border: 2px solid green;
+   border-radius: 5px;
+ }
+#gndr, #cnt{
+  display: inline-block;
+}
+#usr, #instnum{
+  display: inline-block;
+}
+#psw, #cpsw{
+  display: inline-block;
+}
+#name, #email{
+  width: 550px;
+}
+#password, #confirm_password, #cnt{
+  width: 250px;
+}
+#password, #gnd{
+  margin-right: 42px;
+}
+#crs{
+  font-size: 16px;
+  width: 558px;
+}
+#gnd{
+  width: 257px;
+  font-size: 16px;
+} */
+#name:focus,#email:focus,#add:focus,#cnt:focus,#rl:focus{
+  outline: none;
+  border: 2px solid #7ED957;
+}
+#gnd:focus,#crs:focus,#birthday:focus,#instnum:focus,#password:focus,#confirm_password:focus,#username:focus{
+  outline: none;
+  border: 2px solid #7ED957;
+}
+/* #back, #btn{
+  display: inline-block;
+}
+#subtn, #backbtn{
+  background: green;
+  border-radius: 12px;
+  border: none;
+  margin: 50px 60px 0 60px;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  width: 200px;
+}
+#fr{
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 22PX;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  background: #32CD32;
+  color: white;
+  transform: translateY(-6px);
+}
+#subtn:active #fr, #backbtn:active #fr {
+  transform: translateY(-2px);
+} */
+p.signup{
+  text-align: center;
+  margin-top: 90px;
+  font-size: 17px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+::placeholder {
+   font-size: 16px;
+   opacity: 0.5;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   text-indent: 10px;
+}
+#bt1{
+  color: black;
+  background: none;
+  width: 20%;
+  height: 60px;
+  font-family: 'Fashion Fetish', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 40px 200px 0 200px;
+  border: 2px solid #2ebd2e;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  transition: ease-out 0.5s;
+}
+/* #bt2{
+  width: 32%;
+  height: 50px;
+  font-size: 15px;
+  float: right;
+  margin: 20px 0 0 0;
+} */
+#bt2{
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  float: right;
+  margin: 10px 0 0 0;
+  font-family: 'Fashion Fetish', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  background-image: url("../css/pics/changerole.png");
+  background-size: cover;
+  background-color: #2ebd2e;
+  border: 2px solid #2ebd2e;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+#bt1:hover{
+  box-shadow: inset 300px 0 0 0 #2ebd2e;
+  color: white;
+  text-decoration: none;
+}

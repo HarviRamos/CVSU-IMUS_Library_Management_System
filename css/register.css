@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+body{
+  width: 99%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-image: url("pics/mainbg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+}
+.box{
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 14px;
+  width: 65%;
+  height: 850px;
+  background-color: #fff;
+}
+.box-items{
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  display: inline-block;
+  width: 110px;
+  margin-top: 15px
+}
+.logotitle{
+  display: inline-block;
+}
+#role-title{
+  margin: 75px 0 0 0;
+  font-size: 26px;
+  line-height: 0;
+  letter-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.role-buttons{
+  display: inline-block;
+  margin: 50px 0;
+  padding: 0 100px 0 100px;
+}
+#student, #instructor{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #008037;
+  cursor: pointer;
+}
+#student .front, #instructor .front{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  background-color: #2ebd2e;
+  transform: translate(-5px,-16px);
+}
+#student .front{
+  background-image: url("pics/stud.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+}
+#instructor .front{
+  background-image: url("pics/ins.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+}
+#student:active .front, #instructor:active .front {
+  transform: translate(-5px,-6px);
+}
+.role-label{
+  display: block;
+  margin: 35px 0;
+  font-size: 26px;
+  letter-spacing: 5px;
+  line-height: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+h2{
+  margin-left: 45px;
+  font-size: 19px;
+  text-align: left;
+  line-height: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+p.signin{
+  text-align: center;
+  margin-top: 65px;
+  font-size: 17px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}

@@ -1,0 +1,270 @@
+@import url('http://fonts.cdnfonts.com/css/fashion-fetish');
+body{
+  width: 99%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-image: url("pics/mainbg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+}
+.logo-navbar{
+  display: inline-block;
+  position: fixed;
+  z-index:10;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 15%;
+}
+.nav-bar{
+  right: 0;
+  margin: 2% 0 0 1%;
+  position: fixed;
+}
+.logo{
+  float: left;
+  display: inline;
+  margin: 1% 0 0 2%;
+  position: fixed;
+}
+.hm, .dropbtn, .crt, .acn{
+  margin-right: 5px;
+  width: 150px;
+  background: none;
+  border-right: 2px solid white;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  padding: 0;
+}
+.cct, .lo{
+  border: none;
+  width: 40px;
+  background: none;
+  padding: 0;
+  border: 2px solid white;
+  border-radius: 60%;
+}
+.cct{
+  margin: 0 10px 0 10px;
+}
+.lo{
+  margin-right: 30px;
+}
+.hm:hover, .dropbtn:hover, .crt:hover, .cct:hover, .acn:hover, .lo:hover, .dropdown-content a:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.nav-bar a{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Fashion Fetish', sans-serif;
+  font-weight: 400;
+}
+.dropbtn {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Fashion Fetish', sans-serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+}
+.dropdown-content {
+  list-style: none;
+  visibility: visible;
+  padding-left: 0;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  font-family: 'Fashion Fetish', sans-serif;
+}
+.dropdown-content a{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px 0 0 0;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.container{
+  display: block;
+  width: 90%;
+  margin: 150px auto;
+}
+.top-part{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 0 20px 0 20px;
+  display: inline-block;
+}
+#books-header{
+  float: left;
+  font-size: 50px;
+  line-height: 0;
+  font-family: 'Fashion Fetish', sans-serif;
+  font-weight: 50px;
+  color: white;
+}
+#crs{
+  float: left;
+  width: 20%;
+  height: 50px;
+  margin: 5px 0 0 20px;
+  padding: 8px 18px 8px 8px;
+  background: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+option{
+  color: black;
+}
+#search{
+  float: right;
+  width: 20%;
+  height: 30px;
+  margin: 5px auto;
+  padding: 8px 18px 8px 8px;
+  border-radius: 10px;
+}
+table{
+  border-collapse: separate;
+  background: white;
+  border-radius: 10px;
+}
+.inv{
+  margin: auto;
+  width: 90%;
+  background: white;
+  border-radius: 10px;
+  border-collapse:separate;
+  border-spacing:0 15px;
+  display: none;
+}
+td {
+  padding: 25px 50px 25px 50px;
+  background: white;
+  border-radius: 10px;
+}
+#koob, #csed{
+  display: none;
+}
+#koob{
+  width: 50%;
+}
+#csed{
+  width: 50%;
+}
+.books-img{
+  width: 100%;
+}
+/* .books{
+  width: 85%;
+  margin: 15px auto;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+}
+.books-img{
+  width: 15%;
+}
+.books-text{
+  margin: auto 50px auto 50px;
+  width: 80%;
+  text-align: center;
+  color: black;
+  background: white;
+}*/
+#title{
+  font-size: 30px;
+  line-height: 0;
+  font-family: 'Fashion Fetish Heavy', sans-serif;
+  text-align: center;
+}
+#author{
+  font-size: 14px;
+  font-family: 'Fashion Fetish', sans-serif;
+  text-align: center;
+}
+#description{
+  font-size: 16px;
+  font-family: 'Fashion Fetish', sans-serif;
+}
+.modal-course, .modal-department {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+}
+.mc-content, .md-content {
+  background-color: #fefefe;
+  margin: 6% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 30px;
+  width: 60%;
+  height: auto;
+  text-align: center;
+}
+.md-content{
+  margin-top: 8%;
+}
+.mc-items, .md-items{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 40px 50px;
+  margin: 5% auto;
+}
+#mci, #mdi{
+  width: 250px;
+  height: 110px;
+  font-family: 'Fashion Fetish', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  border: 3px solid green;
+  border-radius: 15px;
+  background-color: none;
+  color: black;
+  transition: ease-out 0.5s;
+}
+#mci:hover, #mdi:hover{
+  box-shadow: inset 300px 0 0 0 green;
+  color: white;
+}
+.close, .close2 {
+  color: #aaa;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+.close:hover, .close2:hover, .close:focus, .close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-header{
+  font-size: 30px;
+  font-family: 'Fashion Fetish', sans-serif;
+}
